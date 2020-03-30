@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap');
+/*global*/
+html, body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Cabin', sans-serif;
+	color:#484848;
+}
+.flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.inline-flex{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+.container{
+	width:75%;
+	margin:0 auto;
+}
+.wide-container{
+	width:90%;
+	margin:0 auto;
+}
+.btn{
+	font-weight:600;
+}
+.highlight{
+	font-weight: 800;
+}
+.padding{
+	padding-bottom: 4rem;
+}
+.heading{
+	font-weight: 900;
+	font-size: 60px;
+	margin-bottom:3rem;
+}
+.heading-above{
+	width: 3rem;
+	border-bottom: 2px solid #333;
+	margin-bottom:2rem;
+}
+a{
+	color:#008489;
+}
+#header {
+  display: none;
+}
+
+/*#header.m_fixed {
+	display: block;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+*/
+/*header*/
+header{
+	width: 100%;
+	background-color: #fff;
+	/*display: none;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+  z-index: 1;
+  border-bottom: 1px solid #eee;
+
+}
+header .fa-airbnb{
+	color:#006c70;
+	font-size: 14px;
+	line-height: 60px;
+	font-size:2rem;
+	text-align:center;
+}
+.header-inner{
+	height:90px;
+	line-height: 90px;
+}
+.header-right {
+	align-items: baseline;
+}
+.header-right-item{
+	margin-right: .8rem;
+}
+header .btn{
+	background-color: #DB3742;
+	border-color:#DB3742;
+	padding: .5rem 1rem;
+}
+
+
+
+/*hero-image*/
+.hero-image{
+	background: linear-gradient(0deg, rgba(0,0,0,0),
+		rgba(0,0,0,0.1)),url(../img/hero.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	max-width: 100%;
+}
+.hero-image .fa-airbnb{
+	color:#fff;
+	font-size: 14px;
+	line-height: 60px;
+	font-size:2rem;
+}
+
+
+
+/*form-box*/
+.form-box{
+	position: absolute;
+	width: 450px;
+	height: 460px;
+	top: 80px;
+	right:90px;
+	background-color: white;
+	border-radius: 5px;
+}
+.form-box-wrapper{
+	padding: 1.8rem;
+}
+.form-group{
+	flex-wrap:wrap;
+}
+.form-box h2{
+	display: inline-block;
+}
+.form-box h2 + p{
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+.form-box .btn{
+	background-color: #DB3742;
+	border-color:#DB3742;
+	padding: .5rem 1rem;
+}
+
+
+/*form-box-xl*/
+.form-box-xl{
+	position: relative;
+}
+.form-box-xl h1{
+	color:white;
+	position: absolute;
+	top: -90px;
+	transform: translateY(-50%);
+}
+.form-box-xl p[class="highlight"]{
+	margin-top:2rem;
+}
+.form-box-xl .col-7{
+}
+.form-box-xl h2{
+	display: inline-block;
+}
+.form-box-xl h2 + p{
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+.form-box-xl button{
+	background-color: #DB3742;
+	border-color:#DB3742;
+	padding: .5rem 1rem;
+}
+
+
+
+/*safety*/
+.safety{
+	margin-top: 3rem;
+}
+.safety .col-xl-4{
+	padding:3rem;
+	/*
+	x方向について
+	paddingをすべてのcolにつけてcol毎のスペースを確保する。その後、マイナスのmarginを
+	container内部のラッパー（デフォルトでrowについている）に着ける。
+	こうすることで、col内部の要素がcontainer幅にぴったりくっつくようになるので、
+	col外部の要素ときれいに横幅がそろうようになる*/
+}
+.safety .row{
+	margin:0 -3rem;
+}
+
+
+
+/*easystep*/
+.easystep img{
+	height: 50px;
+	width: 50px;
+	margin-bottom: 2rem;
+}
+.easystep .col-xl-4{
+	padding:3rem;
+}
+.easystep .row{
+	margin:0 -3rem;
+}
+
+
+/*person2col*/
+/*.person img{
+	height: 500px;
+	width: 500px;
+}*/
+.person span{
+	color:#fdb32b;
+	font-size: 100px;
+	position: relative;
+	top:3rem;
+}
+.person .col-sm-6{
+	padding:3rem;
+}
+#person{
+	background-image: url(../img/person.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	background-position:center;
+}
+.person .row{
+	margin:0 -3rem;
+}
+
+
+
+/*qa*/
+.qa p{
+	padding:1rem 0;
+	border-bottom:1px solid #eee;
+	font-size:18px;
+}
+
+
+
+/*detail*/
+.card, .rect-card{
+	position: relative;
+}
+.card>a, .rect-card>a{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*detai-sm*/
+.detail-sm .rect-card{
+		border:1px solid #eee;
+		box-shadow:0px 1px 1px 1px #eee;
+	}
+.detail-sm .squire-image{
+	width: 75px;
+	min-width: 75px;
+	height:75px;
+	background-position: center center;
+	background-repeat: none;
+	background-size: cover;
+}
+.detail-sm .squire-image-a{
+	background-image: url(../img/hosting.jpg);
+}
+.detail-sm .squire-image-b{
+	background-image: url(../img/family.jpg);
+}
+.detail-sm .squire-image-c{
+	background-image: url(../img/moneyplan.jpg);
+}
+.detail-sm .rect-body{
+	width: auto;
+	padding:2px 1rem;
+}
+.detail-sm p{
+	margin-bottom:0 !important;
+	line-height: 35px;
+	}
+.detail-sm .text{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+/*banner*/
+.banner-inner{
+	background-image: url(../img/pottery.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	max-width:1300px;
+	height:450px;
+	margin:0 auto;
+	background-position: center;
+}
+.banner-caption{
+	position: relative;
+	top:-350px;
+}
+.banner-caption h1{
+	color:white;
+	margin-bottom: 2rem;
+	font-size: 50px;
+}
+
+
+/*footer*/
+footer{
+	font-size:.8rem;
+	color:#767676;
+}
+footer h6{
+	font-weight: 800;
+	margin-bottom:1rem;
+	color:#484848;
+}
+footer a{
+	color:rgba(0,0,0,0.7);
+	font-weight: bold;
+}
+footer p{
+	margin-bottom:4px;
+}
+footer i{
+	font-size:1.3rem;
+	color:#333;
+	margin-right:2rem;
+}
+footer .btn{
+	border:1px solid rgba(0,0,0,0.1);
+}
+footer i.fa-airbnb{
+	/*position:relative;
+	top:50%;
+	left:50%;*/
+	line-height: 60px;
+	margin-right:0rem;
+}
+#new::after{
+	content:"新着";
+	background-color: #006A70;
+	color:white;
+	border-radius:3px;
+	margin-left:.3rem;
+	padding:.2rem;
+}
+
+/*単純に消えるだけの要素と入れ替わる要素の違い*/
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+/*---Media Queries --*/
+.detail-sm{
+	display: none;
+	}
+.form-box-xl{
+	display: none;
+}
+@media (max-width: 1200px) {
+	.hide-xl{
+		display: none;
+	}
+	.form-box{
+		display: none;
+	}
+	.form-box-xl{
+		display: block;
+}
+	.narrower-container-xl{
+		width: 680px !important;
+		margin:0 auto;
+	}
+	.wider-container-xl{
+		width: 855px !important;
+		margin:0 auto;
+
+	}
+	.person img{
+		height: 325px;
+		width: 325px;
+		max-width: 100%;
+	}
+	.hero-image{
+		-webkit-background-size: cover;
+		background-size: cover;
+		height: 50vh;
+		max-width: 100%;
+	}
+	#header{
+		top:auto;
+		bottom:0;
+		border-top:1px solid #eee;
+	}
+}
+@media (max-width: 992px) {
+	.hide-lg{
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	.hide-md{
+		display: none;
+	}
+}
+@media (max-width: 576px) {
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.hide-sm{
+		display: none;
+	}
+	.detail{
+		display: none;
+	}
+	.detail-sm{
+		display: block;
+	}
+	.container{
+		width: 90% !important;
+		margin: 0 auto;
+	}
+	.safety .col-xl-4{
+	padding:0;
+	/*
+	x方向について
+	paddingをすべてのcolにつけてcol毎のスペースを確保する。その後、マイナスのmarginを
+	container内部のラッパー（デフォルトでrowについている）に着ける。
+	こうすることで、col内部の要素がcontainer幅にぴったりくっつくようになるので、
+	col外部の要素ときれいに横幅がそろうようになる*/
+	}
+	.safety .row{
+	margin:0;
+	}
+	.easystep .col-xl-4{
+		padding:0;
+	}
+	.easystep .row{
+		margin:0;
+	}
+	.person .col-sm-6{
+		padding:0;
+	}
+	.person .row{
+		margin:0;
+	}
+}

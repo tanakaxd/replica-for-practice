@@ -1,0 +1,15 @@
+$(function(){
+	$(".navbar-toggler").click(function(){
+    if($(".overlay").hasClass("open")){
+      $(".overlay").removeClass("open");
+      $(".overlay").slideUp();
+		$(".overlay-hide").show();
+		$(".fa-caret-down").css("transform","rotate(0deg)");
+    }else{
+      $(".overlay").addClass("open");
+      $(".overlay").slideDown();
+		$(".overlay-hide").hide();
+		$(".fa-caret-down").css("transform","rotate(180deg)");
+    }
+  });
+});

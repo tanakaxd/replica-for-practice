@@ -1,0 +1,1277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"color",
+				"color\tproperty"
+			],
+			[
+				"html",
+				"html\thtml"
+			],
+			[
+				"a",
+				"a\t<a>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>PAS-POL</title>\n\t<meta name=\"viewport\" content=\"width=devide-width, initial-scale=1\">\n\n\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n\n\t<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js\"></script>\n\t<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\"></script>\n\t<script src=\"https://kit.fontawesome.com/9122ec9185.js\"></script>\n\n</head>\n<body>\n<!-- -- header -->\n<header class=\"header\">\n\t<div class=\"header-inner flex\">\n\t\t<div class=\"header-logo\">\n\t\t\t<a href=\"#\"><img src=\"img/siteLogo-pc@2x.png\" alt=\"\"></a>\n\t\t</div>\n\t\t<div class=\"header-nav ml-auto\">\n\t\t\t<ul class=\"navigation flex\">\n\t\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">top</a></li>\n\t\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">product</a></li>\n\t\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">about</a></li>\n\t\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">news</a></li>\n\t\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">contact</a></li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n</header>\n\n<!-- header-md -->\n<header class=\"header-md\">\n\t<div class=\"header-nav-md\">\n\t\t<ul class=\"navigation\">\n\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">top</a></li>\n\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">product</a></li>\n\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">about</a></li>\n\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">news</a></li>\n\t\t\t<li class=\"nav-item\"><a href=\"\" class=\"nav-link\">contact</a></li>\n\t\t\t<li class=\"nav-item\" id=\"nav-item-open\">menu</li>\n\t\t</ul>\n\t</div>\n\n</header>\n\n<!-- slide -->\n<div class=\"carousel slide carousel-fade\" data-ride=\"carousel\" data-wrap=\"true\">\n\t<div class=\"carousel-inner\">\n\t\t<div class=\"carousel-item carousel-item1 active\"></div>\n\t\t<div class=\"carousel-item carousel-item2\"></div>\n\t\t<div class=\"carousel-item carousel-item3\"></div>\n\t\t<div class=\"carousel-item carousel-item4\"></div>\n\t\t<div class=\"carousel-item carousel-item5\"></div>\n\t</div>\n\t<div class=\"header-logo\">\n\t\t<a href=\"#\"><img src=\"img/siteLogo-small@2x.png\" alt=\"\"></a>\n\t</div>\n</div>\n\n<!-- jumbotron -->\n<div class=\"jumbotron jumbotron-fluid\">\n\t<div class=\"jumbotron-inner\">\n\t\t<h2>旅に出よう。</h2>\n\t\t<p>僕たちが作りたいのは<br>\n\t\t\t持っているだけで旅に出たくなるモノ。<br>\n\t\t\t持っているだけでわくわくするモノ。\n\t\t</p>\n\t\t<p>\n\t\t\tそれは新しい時代の “パスポート”<br>\n\t\t\t僕たちが作るものは、<br>\n\t\t\tそんな、存在でありたい。\n\t\t</p>\n\t\t<p>\n\t\t\tそして、人と人が繋がる<br>\n\t\t\tこんな時代だからこそ、<br>\n\t\t\t僕たちは、みんなでひとつのモノを<br>\n\t\t\t作ることを追求したい。\n\t\t</p>\n\t\t<h3 class=\"w800\">PAS-POL<span>パスポル</span></h3>\n\t\t<p>\n\t\t\tそれは、自分と世界を繋げる<br>\n\t\t\t旅のモノづくりブランド\n\t\t</p>\n\t</div>\n</div>\n\n<!-- cards -->\n<div class=\"cards\">\n\t<div class=\"cards-container padding\">\n\t\t<div class=\"cards-header flex\">\n\t\t\t<h3 class=\"uppdercase heading\">product</h3>\n\t\t\t<button class=\"uppdercase ml-auto btn-more hide-sm\">more</button>\n\t\t</div>\n\t\t<div class=\"cards-inner flex\">\n\t\t\t<div class=\"card col-md-4\">\n\t\t\t\t<img src=\"img/fes001t.png\" class=\"card-img-top\"></img>\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<p class=\"card-text\">The World Festival Guide -海外の音楽フェス完全ガイド-</p>\n\t\t\t\t</div>\n\t\t\t\t<a href=\"#\"></a>\n\t\t\t</div>\n\t\t\t<div class=\"card col-md-4\">\n\t\t\t\t<img src=\"img/banner_サムネイル21.png\" class=\"card-img-top\"></img>\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<p class=\"card-text\">この世界で死ぬまでにしたいこと2000\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t\t<a href=\"#\"></a>\n\n\t\t\t</div>\n\t\t\t<div class=\"card col-md-4\">\n\t\t\t\t<img src=\"img/365日本カレンダー_サムネイル1.png\" class=\"card-img-top\"></img>\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<p class=\"card-text\">365日日本一周 絶景日めくりカレンダー</p>\n\t\t\t\t</div>\n\t\t\t\t<a href=\"#\"></a>\n\n\t\t\t</div>\n\t\t\t<div class=\"card col-md-4\">\n\t\t\t\t<img src=\"img/passportnotebook-thumb11.png\" class=\"card-img-top\"></img>\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<p class=\"card-text\">PASSPORT NOTEBOOK series</p>\n\t\t\t\t</div>\n\t\t\t\t<a href=\"#\"></a>\n\n\t\t\t</div>\n\t\t\t<div class=\"card col-md-4\">\n\t\t\t\t<img src=\"img/englishbook-thumb11.png\" class=\"card-img-top\"></img>\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<p class=\"card-text\">ひとり旅英会話BOOK\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t\t<a href=\"#\"></a>\n\n\t\t\t</div>\n\t\t\t<div class=\"card col-md-4\">\n\t\t\t\t<img src=\"img/212465b615e458e672a9e0a1cbb1acf1.jpg\" class=\"card-img-top\"></img>\n\t\t\t\t<div class=\"card-body\">\n\t\t\t\t\t<p class=\"card-text\">日本の絶景ポストカード　春編</p>\n\t\t\t\t</div>\n\t\t\t\t<a href=\"#\"></a>\n\n\t\t\t</div>\n\t\t</div>\n\t\t<button class=\"uppdercase btn-more show-sm\">more</button>\n\t</div>\n</div>\n\n<!-- blog-entries -->\n<div class=\"blog\">\n\t<div class=\"blog-inner padding\">\n\t\t<div class=\"blog-header flex\">\n\t\t\t<h3 class=\"uppdercase heading\">news</h3>\n\t\t\t<button class=\"uppdercase ml-auto btn-more hide-sm\">more</button>\n\t\t</div>\n\t\t<div class=\"blog-entry flex\">\n\t\t\t<div class=\"blog-img-wrapper\">\n\t\t\t\t<div class=\"blog-img1\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"blog-body\">\n\t\t\t\t<h5 class=\"blog-title\">新書籍「旅人になった日」に掲載される絶景の写真を大募集！</h5>\n\t\t\t\t<p class=\"blog-time\">2019.8.2</p>\n\t\t\t\t<p class=\"blog-text hide-sm\">長い梅雨もようやく明け、いよいよ夏の訪れを感じています。こんにちは、TABIPPOのロイ（roy_world81）です。 先日まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件とたくさんの投稿があり、全て読ませていただきました。派手な出来事で人生が変わった方もいましたし、日常の些細な気付きで考えが変わった、日々の大切に気づいた方もいました。中にはTABIPPOの本を見て人生が変わったという方もいらっしゃり、いろんな想いでみなさまのnot ...</p>\n\t\t\t</div>\n\t\t\t<a href=\"#\"></a>\n\t\t</div>\n\t\t<div class=\"blog-entry flex\">\n\t\t\t<div class=\"blog-img-wrapper\">\n\t\t\t\t<div class=\"blog-img2\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"blog-body\">\n\t\t\t\t<h5 class=\"blog-title\">新書籍「旅人になった日」に掲載される絶景の写真を大募集！</h5>\n\t\t\t\t<p class=\"blog-time\">2019.8.2</p>\n\t\t\t\t<p class=\"blog-text hide-sm\">長い梅雨もようやく明け、いよいよ夏の訪れを感じています。こんにちは、TABIPPOのロイ（roy_world81）です。 先日まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件とたくさんの投稿があり、全て読ませていただきました。派手な出来事で人生が変わった方もいましたし、日常の些細な気付きで考えが変わった、日々の大切に気づいた方もいました。中にはTABIPPOの本を見て人生が変わったという方もいらっしゃり、いろんな想いでみなさまのnot ...</p>\n\t\t\t</div>\n\t\t\t<a href=\"#\"></a>\n\t\t</div>\n\t\t<div class=\"blog-entry flex\">\n\t\t\t<div class=\"blog-img-wrapper\">\n\t\t\t\t<div class=\"blog-img3\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"blog-body\">\n\t\t\t\t<h5 class=\"blog-title\">新書籍「旅人になった日」に掲載される絶景の写真を大募集！</h5>\n\t\t\t\t<p class=\"blog-time\">2019.8.2</p>\n\t\t\t\t<p class=\"blog-text hide-sm\">長い梅雨もようやく明け、いよいよ夏の訪れを感じています。こんにちは、TABIPPOのロイ（roy_world81）です。 先日まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件とたくさんの投稿があり、全て読ませていただきました。派手な出来事で人生が変わった方もいましたし、日常の些細な気付きで考えが変わった、日々の大切に気づいた方もいました。中にはTABIPPOの本を見て人生が変わったという方もいらっしゃり、いろんな想いでみなさまのnot ...</p>\n\t\t\t</div>\n\t\t\t<a href=\"#\"></a>\n\t\t</div>\n\t\t<div class=\"blog-entry flex\">\n\t\t\t<div class=\"blog-img-wrapper\">\n\t\t\t\t<div class=\"blog-img4\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"blog-body\">\n\t\t\t\t<h5 class=\"blog-title\">新書籍「旅人になった日」に掲載される絶景の写真を大募集！</h5>\n\t\t\t\t<p class=\"blog-time\">2019.8.2</p>\n\t\t\t\t<p class=\"blog-text hide-sm\">長い梅雨もようやく明け、いよいよ夏の訪れを感じています。こんにちは、TABIPPOのロイ（roy_world81）です。 先日まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件とたくさんの投稿があり、全て読ませていただきました。派手な出来事で人生が変わった方もいましたし、日常の些細な気付きで考えが変わった、日々の大切に気づいた方もいました。中にはTABIPPOの本を見て人生が変わったという方もいらっしゃり、いろんな想いでみなさまのnot ...</p>\n\t\t\t</div>\n\t\t\t<a href=\"#\"></a>\n\t\t</div>\n\t\t<div class=\"blog-entry flex\">\n\t\t\t<div class=\"blog-img-wrapper\">\n\t\t\t\t<div class=\"blog-img5\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"blog-body\">\n\t\t\t\t<h5 class=\"blog-title\">新書籍「旅人になった日」に掲載される絶景の写真を大募集！</h5>\n\t\t\t\t<p class=\"blog-time\">2019.8.2</p>\n\t\t\t\t<p class=\"blog-text hide-sm\">長い梅雨もようやく明け、いよいよ夏の訪れを感じています。こんにちは、TABIPPOのロイ（roy_world81）です。 先日まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件とたくさんの投稿があり、全て読ませていただきました。派手な出来事で人生が変わった方もいましたし、日常の些細な気付きで考えが変わった、日々の大切に気づいた方もいました。中にはTABIPPOの本を見て人生が変わったという方もいらっしゃり、いろんな想いでみなさまのnot ...</p>\n\t\t\t</div>\n\t\t\t<a href=\"#\"></a>\n\t\t</div>\n\t\t<div class=\"blog-entry flex\">\n\t\t\t<div class=\"blog-img-wrapper\">\n\t\t\t\t<div class=\"blog-img6\">\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"blog-body\">\n\t\t\t\t<h5 class=\"blog-title\">新書籍「旅人になった日」に掲載される絶景の写真を大募集！</h5>\n\t\t\t\t<p class=\"blog-time\">2019.8.2</p>\n\t\t\t\t<p class=\"blog-text hide-sm\">長い梅雨もようやく明け、いよいよ夏の訪れを感じています。こんにちは、TABIPPOのロイ（roy_world81）です。 先日まで「#旅とわたし」というテーマでみなさまの旅のエッセイを募集していました。（詳しくはこちら） 約4,300件とたくさんの投稿があり、全て読ませていただきました。派手な出来事で人生が変わった方もいましたし、日常の些細な気付きで考えが変わった、日々の大切に気づいた方もいました。中にはTABIPPOの本を見て人生が変わったという方もいらっしゃり、いろんな想いでみなさまのnot ...</p>\n\t\t\t</div>\n\t\t\t<a href=\"#\"></a>\n\t\t</div>\n\t\t<button class=\"uppdercase btn-more show-sm\">more</button>\n\t</div>\n</div>\n\n<!-- sns -->\n<div class=\"sns\">\n\t<div class=\"sns-inner flex align-items-center justify-content-center\">\n\t\t<div class=\"sns-button\"><button class=\"btn-fb\">Share on Facebook</button></div>\n\t\t<div class=\"sns-button\"><button class=\"btn-twitter\">Share on Twitter</button></div>\n\t\t<div class=\"sns-button sns-button-third-child\"><button class=\"btn-hatena\">Hatena Bookmark</button></div>\n\t\t<div class=\"sns-button show-sm\"><button class=\"btn-line\">Send to Line</button></div>\n\t</div>\n</div>\n\n<!-- footer -->\n<footer>\n\t<div class=\"footer-wrapper\">\n\t\t<div class=\"footer-upper\">\n\t\t\t<div class=\"footer-upper-inner\">\n\t\t\t\t<ul class=\"flex justify-content-center align-items-center\">\n\t\t\t\t\t<li>top</li>\n\t\t\t\t\t<li>product</li>\n\t\t\t\t\t<li>about</li>\n\t\t\t\t\t<li>news</li>\n\t\t\t\t\t<li>contact</li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"footer-lower\">\n\t\t\t<div class=\"footer-lower-inner flex align-items-center\">\n\t\t\t\t<div class=\"footer-logo mr-auto\">\n\t\t\t\t\t<a href=\"#\"><img src=\"img/siteLogo-small@2x.png\" alt=\"\"></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"footer-c ml-auto\">\n\t\t\t\t\t<p>Copyright © 2019 PAS-POL -旅のモノづくりブランド-｜TABIPPO All rights reserved.</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</footer>\n\n\n\n\n\n<script src=\"js/script.js\"></script>\n</body>\n</html>\n",
+			"file": "/E/SLT3_projects/pas-pol/index.html",
+			"file_size": 13165,
+			"file_write_time": 132110118231010657,
+			"settings":
+			{
+				"buffer_size": 9458,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/SLT3_projects/pas-pol/css/style.css",
+			"settings":
+			{
+				"buffer_size": 13835,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 468.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/SLT3_projects/guyg",
+		"/E/SLT3_projects/guyg/css",
+		"/E/SLT3_projects/guyg/js"
+	],
+	"file_history":
+	[
+		"/E/SLT3_projects/test_col/index.html",
+		"/E/SLT3_projects/guyg/index.html",
+		"/C/Users/T Tanaka/Desktop/sample/themes/mytheme/index.php",
+		"/E/SLT3_projects/pas-pol/css/style.scss",
+		"/C/Users/T Tanaka/Desktop/sample/themes/mytheme/style.css",
+		"/E/SLT3_projects/pas-pol/index.html",
+		"/E/SLT3_projects/pas-pol/css/style.css",
+		"/E/SLT3_projects/Airbnb2/js/script.js",
+		"/E/SLT3_projects/pas-pol/js/script.js",
+		"/E/SLT3_projects/test_modal/js/script.js",
+		"/E/SLT3_projects/Airbnb2/index.html",
+		"/E/SLT3_projects/Airbnb2/css/style.css",
+		"/E/SLT3_projects/pas-pol/img/siteLogo-pc@2x.png",
+		"/E/SLT3_projects/test_sass/index.html",
+		"/E/SLT3_projects/test_sass/stylesheet.scss",
+		"/E/SLT3_projects/test_sass/stylesheet.css",
+		"/E/SLT3_projects/test_sass/_variables.scss",
+		"/C/Users/T Tanaka/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/Users/T Tanaka/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/README.md",
+		"/C/Users/T Tanaka/AppData/Roaming/Sublime Text 3/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+		"/E/SLT3_projects/Bootstrap 4 Site Files/index.html",
+		"/E/SLT3_projects/test_scroll/style.css",
+		"/E/SLT3_projects/test_scroll/index.html",
+		"/C/Users/T Tanaka/Desktop/bookmarks_2019_08_19.html",
+		"/E/SLT3_projects/test_modal/css/style.css",
+		"/E/SLT3_projects/test_modal/index.html",
+		"/E/SLT3_projects/test_drawers2/index.html",
+		"/E/SLT3_projects/test_drawers/index.html",
+		"/E/SLT3_projects/test_scroll/script.js",
+		"/E/SLT3_projects/test_smoothscroll/index.html",
+		"/E/SLT3_projects/test_smoothscroll/css/style.css",
+		"/E/SLT3_projects/test_smoothscroll/js/script.js",
+		"/E/SLT3_projects/template/js/script.js",
+		"/E/SLT3_projects/template/css/style.css",
+		"/E/SLT3_projects/template/index.html",
+		"/E/SLT3_projects/index.html",
+		"/E/SLT3_projects/style.css",
+		"/E/SLT3_projects/index.php",
+		"/E/SLT3_projects/Airbnb1/index.html",
+		"/E/SLT3_projects/Airbnb1/script.js",
+		"/E/SLT3_projects/Airbnb1/stylesheet.css",
+		"/E/SLT3_projects/Bootstrap 4 Site Files/style.css",
+		"/E/SLT3_projects/col-test/style2.css",
+		"/E/SLT3_projects/col-test/style.css",
+		"/E/SLT3_projects/col-test/index2.html",
+		"/E/SLT3_projects/col-test/index.html",
+		"/E/SLT3_projects/Nuno Theme Starter Files/css/fixed.css",
+		"/E/SLT3_projects/Nuno Theme Starter Files/style.css",
+		"/C/Users/T Tanaka/AppData/Roaming/Sublime Text 3/Packages/User/PHP.sublime-build",
+		"/E/SLT3_projects/Nuno Theme Starter Files/index.html",
+		"/E/SLT3_projects/Airbnb1/nav_parts.html",
+		"/E/SLT3_projects/test_parallax/css/style.css",
+		"/E/SLT3_projects/test_parallax/index.html",
+		"/E/SLT3_projects/test_parallax/index.html.txt",
+		"/E/SLT3_projects/Nuno Theme Starter Files/bootstrap-4.1.3-dist/css/bootstrap.css",
+		"/E/SLT3_projects/Airbnb1/index.sublime-workspace",
+		"/C/Users/T Tanaka/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/T Tanaka/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/T Tanaka/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/SLT3_projects/learnwebcode_tutorial/index.html",
+		"/E/SLT3_projects/bootstrap tutorial/index.html",
+		"/E/SLT3_projects/test2/stylesheet.css",
+		"/E/SLT3_projects/test2/index.html",
+		"/E/SLT3_projects/test1/index.html",
+		"/E/SLT3_projects/test1/stylesheet.css",
+		"/E/SLT3_projects/learnwebcode_tutorial/css/main.css",
+		"/E/SLT3_projects/learnwebcode_tutorial/css/responsive.css",
+		"/E/SLT3_projects/test1/test.sublime-project",
+		"/C/Users/T Tanaka/Pictures/avian portrait2.png",
+		"/C/Users/T Tanaka/Desktop/index.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nav-item-open",
+			"content",
+			"<div class=\"sns-button\">",
+			"img",
+			"div",
+			"floating",
+			"jQuery",
+			"container",
+			"#header",
+			"header",
+			"wide",
+			"col-",
+			"col",
+			"contain",
+			"cover",
+			"above",
+			"card",
+			"narrow",
+			"wider",
+			"p",
+			"col-7",
+			"col-5",
+			"col-7",
+			"container",
+			"narrow",
+			"container",
+			"h5",
+			"</a>",
+			"<a href=\"#\">",
+			"md",
+			"h2",
+			"text",
+			";\n",
+			"hide-",
+			"hide",
+			"hide-",
+			"btn",
+			"詳しく読む",
+			">\n",
+			"nav-link",
+			"nav-item",
+			"form-control",
+			"light",
+			"##",
+			"href",
+			"script",
+			"container",
+			"expand",
+			"align",
+			"#",
+			"my",
+			"container",
+			"relative",
+			"trailing",
+			"trailing_space",
+			"traling_space",
+			"line_padding",
+			"tab_size",
+			"tab size",
+			"trim"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/SLT3_projects/pas-pol/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								311
+							]
+						],
+						"settings":
+						{
+							"SL.95.region_keys":
+							[
+								"SL.htmltidy.Highlights.|8262b755ace36d49f0a132b342d35e3ebb159d5f6321043480ce501eb5214638|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|833b2d534d7b9833ae69fba018bae34c21df6217160949a8ae430833c4933bcc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|5173508088ab881d47607fff3bd15299960a8d25609454b3f576cde09ec167be|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|b24390a15f4f62e3174008c2ca5722f675de03dac40eea20e48e65002207d7c3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6da1582f0b118180675d71f5833a9fcb5bf73208ee8c2ada0850fc9930f9b3df|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7c2b8659062df6c0614ce44e02f064324f5a3cca5cd6bdcb52c44edd77ecd660|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|a58515531995602578eb1ad0dd337d527db57a18d66b2d8a13acfb2280c6504c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6ad5f49762985e4a96d9a20f909391ffb8753caca7bfd87d7400b0e953fa1d09|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6f343c1cb1d1f6c7921138d2a56df882d2ab7877d83afd1f9b5359ded5752dfb|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|f6b50388b3abf190f1d674ef45c026e65cf036f063beb21218d4a85d1f7cb327|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|d0a574eb6ba51427f5fb9738f12dd7f87e48c5c361dd349f60dbacd72bc8353d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|03689600c60e02df212b281579630d6a174654c962e6ebf608c033d4f9bba586|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|74538d099aed2b3ed70def27d12b55bddd17f0cb92a7bf8d45ed066c508fd685|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7fd45a156f12eee7cef45d4e8e7cb05858e52cc95f4b638732c08a9a8f261fdc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|ba9d1710728f651a9aabb3a9e8b69d59eeee8080f123abc99afd7b4172c970db|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|1b2f64f0579c038a0137b9fb50eed61eb633f81a28a39960e8951be42d7c93f0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c0026f3be14c3eeaa882254f3ac5aed2f0a2420abe44783640fe2fb6dd8f7118|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|9b1603ea382606effc6da097ee8d9d8fe10aed08a805ddc93fb1819fbf3bb8eb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cff9e7cfd0b1db7bd0013a69bd9f911183e7708a96f95f6c1b436f4cbdea9229|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|b3db3100a32cce4ba1ac274fa6be585543f53bdf1bfd2faad12dd5c7d8a2e19b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|12635a0b7237f68dca4725ae49b592509a76043a24c40c80597e76461f6cac1c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6770b4ad0d1a99e5cd33698910e19b4bbed6e9a0b99eb24799c9e6c1b3ba78ed|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										320,
+										321
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										306,
+										307
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										320,
+										321
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										306,
+										307
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/E/SLT3_projects/pas-pol/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13835,
+						"regions":
+						{
+							"col_00000066":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										10354,
+										10372
+									]
+								],
+								"scope": "col_00000066"
+							},
+							"col_00000066_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00000066_circle.png",
+								"regions":
+								[
+									[
+										10330,
+										10330
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1008,
+										1013
+									],
+									[
+										1195,
+										1200
+									],
+									[
+										1230,
+										1235
+									],
+									[
+										5475,
+										5480
+									],
+									[
+										5684,
+										5689
+									],
+									[
+										5902,
+										5907
+									],
+									[
+										6120,
+										6125
+									],
+									[
+										6327,
+										6332
+									],
+									[
+										11357,
+										11362
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										987,
+										987
+									],
+									[
+										1166,
+										1166
+									],
+									[
+										1202,
+										1202
+									],
+									[
+										5453,
+										5453
+									],
+									[
+										5662,
+										5662
+									],
+									[
+										5880,
+										5880
+									],
+									[
+										6098,
+										6098
+									],
+									[
+										6305,
+										6305
+									],
+									[
+										11340,
+										11340
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_13191BFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										800,
+										807
+									]
+								],
+								"scope": "col_13191BFF"
+							},
+							"col_13191BFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_13191BFF_circle.png",
+								"regions":
+								[
+									[
+										791,
+										791
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_2F9BCDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8068,
+										8075
+									],
+									[
+										8090,
+										8097
+									]
+								],
+								"scope": "col_2F9BCDFF"
+							},
+							"col_2F9BCDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_2F9BCDFF_circle.png",
+								"regions":
+								[
+									[
+										8042,
+										8042
+									],
+									[
+										8077,
+										8077
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_444444FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3127,
+										3131
+									]
+								],
+								"scope": "col_444444FF"
+							},
+							"col_444444FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_444444FF_circle.png",
+								"regions":
+								[
+									[
+										3118,
+										3118
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_4871A9FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7583,
+										7590
+									],
+									[
+										7605,
+										7612
+									]
+								],
+								"scope": "col_4871A9FF"
+							},
+							"col_4871A9FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_4871A9FF_circle.png",
+								"regions":
+								[
+									[
+										7557,
+										7557
+									],
+									[
+										7592,
+										7592
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_656C6EFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6709,
+										6716
+									],
+									[
+										8583,
+										8590
+									]
+								],
+								"scope": "col_656C6EFF"
+							},
+							"col_656C6EFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_656C6EFF_circle.png",
+								"regions":
+								[
+									[
+										6692,
+										6692
+									],
+									[
+										8563,
+										8563
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_70BDD3FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7826,
+										7833
+									],
+									[
+										7848,
+										7855
+									]
+								],
+								"scope": "col_70BDD3FF"
+							},
+							"col_70BDD3FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_70BDD3FF_circle.png",
+								"regions":
+								[
+									[
+										7800,
+										7800
+									],
+									[
+										7835,
+										7835
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_8EC5C6FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8308,
+										8315
+									],
+									[
+										8330,
+										8337
+									]
+								],
+								"scope": "col_8EC5C6FF"
+							},
+							"col_8EC5C6FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_8EC5C6FF_circle.png",
+								"regions":
+								[
+									[
+										8282,
+										8282
+									],
+									[
+										8317,
+										8317
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_939899FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8736,
+										8743
+									]
+								],
+								"scope": "col_939899FF"
+							},
+							"col_939899FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_939899FF_circle.png",
+								"regions":
+								[
+									[
+										8712,
+										8712
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_D5891CFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5259,
+										5266
+									]
+								],
+								"scope": "col_D5891CFF"
+							},
+							"col_D5891CFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_D5891CFF_circle.png",
+								"regions":
+								[
+									[
+										5237,
+										5237
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F6F6F6FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3109,
+										3116
+									],
+									[
+										4838,
+										4845
+									]
+								],
+								"scope": "col_F6F6F6FF"
+							},
+							"col_F6F6F6FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F6F6F6FF_circle.png",
+								"regions":
+								[
+									[
+										3089,
+										3089
+									],
+									[
+										4818,
+										4818
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										239,
+										244
+									],
+									[
+										3039,
+										3044
+									],
+									[
+										7275,
+										7279
+									],
+									[
+										8758,
+										8763
+									],
+									[
+										9203,
+										9208
+									],
+									[
+										11082,
+										11087
+									],
+									[
+										11333,
+										11338
+									],
+									[
+										13248,
+										13253
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										230,
+										230
+									],
+									[
+										3026,
+										3026
+									],
+									[
+										7253,
+										7253
+									],
+									[
+										8745,
+										8745
+									],
+									[
+										9190,
+										9190
+									],
+									[
+										11047,
+										11047
+									],
+									[
+										11305,
+										11305
+									],
+									[
+										13218,
+										13218
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/PHP.sublime-build",
+	"project": "aribnb1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
